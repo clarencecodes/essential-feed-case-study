@@ -127,7 +127,7 @@ class CacheFeedUseCaseTests: XCTestCase {
         XCTAssertEqual(receivedError as NSError?, expectedError, file: file, line: line)
     }
     
-    class FeedStoreSpy: FeedStore {
+    private class FeedStoreSpy: FeedStore {
         typealias InsertionCompletion = (Error?) -> Void
         
         enum ReceivedMessage: Equatable {
