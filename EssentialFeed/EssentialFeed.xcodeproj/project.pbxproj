@@ -43,6 +43,8 @@
 		7523E9482E35F1F9007933A7 /* CoreDataFeedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7523E9472E35F1F9007933A7 /* CoreDataFeedStore.swift */; };
 		7523E94B2E35F555007933A7 /* FeedStore.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7523E9492E35F555007933A7 /* FeedStore.xcdatamodeld */; };
 		7523E9502E362F55007933A7 /* CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7523E94F2E362F55007933A7 /* CoreDataHelpers.swift */; };
+		7523E9522E363068007933A7 /* ManagedCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7523E9512E363068007933A7 /* ManagedCache.swift */; };
+		7523E9542E3630C1007933A7 /* ManagedFeedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7523E9532E3630C1007933A7 /* ManagedFeedImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,6 +103,8 @@
 		7523E9472E35F1F9007933A7 /* CoreDataFeedStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataFeedStore.swift; sourceTree = "<group>"; };
 		7523E94A2E35F555007933A7 /* FeedStore.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FeedStore.xcdatamodel; sourceTree = "<group>"; };
 		7523E94F2E362F55007933A7 /* CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataHelpers.swift; sourceTree = "<group>"; };
+		7523E9512E363068007933A7 /* ManagedCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagedCache.swift; sourceTree = "<group>"; };
+		7523E9532E3630C1007933A7 /* ManagedFeedImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagedFeedImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -282,6 +286,8 @@
 				7523E9492E35F555007933A7 /* FeedStore.xcdatamodeld */,
 				7523E9472E35F1F9007933A7 /* CoreDataFeedStore.swift */,
 				7523E94F2E362F55007933A7 /* CoreDataHelpers.swift */,
+				7523E9512E363068007933A7 /* ManagedCache.swift */,
+				7523E9532E3630C1007933A7 /* ManagedFeedImage.swift */,
 			);
 			path = CoreData;
 			sourceTree = "<group>";
@@ -446,7 +452,9 @@
 				08C0880C21E4EED600ACFB30 /* HTTPClient.swift in Sources */,
 				080EDF0C21B6DAE800813479 /* FeedImage.swift in Sources */,
 				0844769121FCBE7D00439BE9 /* URLSessionHTTPClient.swift in Sources */,
+				7523E9522E363068007933A7 /* ManagedCache.swift in Sources */,
 				7523E9482E35F1F9007933A7 /* CoreDataFeedStore.swift in Sources */,
+				7523E9542E3630C1007933A7 /* ManagedFeedImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
