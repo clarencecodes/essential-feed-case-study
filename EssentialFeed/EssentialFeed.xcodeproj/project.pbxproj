@@ -42,6 +42,7 @@
 		7523E9462E35E01C007933A7 /* CoreDataFeedStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7523E9452E35E01C007933A7 /* CoreDataFeedStoreTests.swift */; };
 		7523E9482E35F1F9007933A7 /* CoreDataFeedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7523E9472E35F1F9007933A7 /* CoreDataFeedStore.swift */; };
 		7523E94B2E35F555007933A7 /* FeedStore.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7523E9492E35F555007933A7 /* FeedStore.xcdatamodeld */; };
+		7523E9502E362F55007933A7 /* CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7523E94F2E362F55007933A7 /* CoreDataHelpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,6 +100,7 @@
 		7523E9452E35E01C007933A7 /* CoreDataFeedStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataFeedStoreTests.swift; sourceTree = "<group>"; };
 		7523E9472E35F1F9007933A7 /* CoreDataFeedStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataFeedStore.swift; sourceTree = "<group>"; };
 		7523E94A2E35F555007933A7 /* FeedStore.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FeedStore.xcdatamodel; sourceTree = "<group>"; };
+		7523E94F2E362F55007933A7 /* CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataHelpers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -279,6 +281,7 @@
 			children = (
 				7523E9492E35F555007933A7 /* FeedStore.xcdatamodeld */,
 				7523E9472E35F1F9007933A7 /* CoreDataFeedStore.swift */,
+				7523E94F2E362F55007933A7 /* CoreDataHelpers.swift */,
 			);
 			path = CoreData;
 			sourceTree = "<group>";
@@ -429,6 +432,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7523E9502E362F55007933A7 /* CoreDataHelpers.swift in Sources */,
 				08C0880E21E4EF2900ACFB30 /* FeedItemsMapper.swift in Sources */,
 				080EDF0E21B6DCB600813479 /* FeedLoader.swift in Sources */,
 				7523E9212E0440DB007933A7 /* RemoteFeedItem.swift in Sources */,
